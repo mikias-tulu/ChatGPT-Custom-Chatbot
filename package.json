@@ -1,0 +1,11 @@
+{
+  "name": "chatgpt-custom-chatbot",
+  "version": "1.0.0",
+  "description": "\u0016an interactive and intelligent chat bot powered by OpenAI's ChatGPT language model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikias Tulu",
+  "license": "MIT"
+}
