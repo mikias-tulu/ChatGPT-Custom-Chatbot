@@ -31,7 +31,7 @@ npm start
 
 The chat bot will launch in the terminal, and you can start interacting with it to perform various actions and get information about your enquiries.
 
-##Features
+### Features
 
 provides the following features:
 
@@ -40,7 +40,7 @@ provides the following features:
 - Multi-turn Interactions: Enjoy interactive and dynamic conversations with the chatbot by having multiple back-and-forth exchanges.
 - Customization: Modify the behavior of the chatbot by fine-tuning the model, adjusting conversational prompts, or enhancing response generation logic.
 
-##Limitations
+### Limitations
 
 - relies on OpenAI's ChatGPT, which has certain limitations. It may sometimes produce incorrect or nonsensical answers, so use it with caution and verify the responses when necessary.
 - The chatbot requires an internet connection to communicate with the OpenAI API and generate responses.
