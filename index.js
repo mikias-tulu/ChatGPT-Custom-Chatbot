@@ -14,11 +14,16 @@ async function main() {
     const userInput = readlineSync.question(colors.yellow("You: "));
 
     try {
-      
+      // Construct messages by iterating over the history
+      const messages = chatHistory.map(([role, content]) => ({
+        role,
+        content,
+      }));
+
       // Add latest user input
       messages.push({ role: "user", content: userInput });
 
-      // Call the API with user input 
+      // Call the API with user input & history
       const completion = await openai.createChatCompletion({
         model: "gpt-3.5-turbo",
         messages: messages,
