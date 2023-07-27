@@ -1,3 +1,7 @@
+import openai from './config/open-ai.js';
+import readlineSync from 'readline-sync';
+import colors from 'colors';
+
 import { Configuration, OpenAIApi } from 'openai';
 import dotenv from 'dotenv';
 dotenv.config();
